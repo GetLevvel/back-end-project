@@ -79,9 +79,12 @@ Implement JWT (JSON Web Token) authentication
      - Chapter 2: Building your first spring app and understanding **DI (Dependency Injection)**
      - Chapter 3: Explains Spring Configuration - you'll want to pay close attention during the security section to understand how spring will authenticate various routes
      - Chapter 4: Testing - yes you shoud be testing  :eyes:
+     
      The rest of the book isn't exceptionally helpful for the completion for this project, but still highly recommended
-- JWT Auth: https://medium.com/@xoor/jwt-authentication-service-44658409e12c
-- Data-JPA: https://spring.io/guides/gs/accessing-data-jpa/
+
+- If you supplement the book with an understanding of JWTs/Authentication and Spring data-jpa you will have a solid foundation for completing the project. Here are some helpful links for both of those:
+     - JWT Auth: https://medium.com/@xoor/jwt-authentication-service-44658409e12c
+     - Data-JPA: https://spring.io/guides/gs/accessing-data-jpa/
 - Useful concepts to google when you are stuck
      - @Component - basic building block in spring-boot - makes the annotated class discoverable by the spring context and available for dependency injection
      - Dependency Injection
