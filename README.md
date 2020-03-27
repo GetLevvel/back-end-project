@@ -40,7 +40,7 @@ Implement JWT (JSON Web Token) authentication
           Total Number of Ratings: integer
           Open hours: an array of daily hours
           Phone number: a string of digits
-          Categories: A list of categories
+          Categories: A list of categories. A truck can have many categories. 
           Coordinates: latitude and longitude
           Location: an object with street address, city, state, country and zipcode properties
           Created by: The user who created the truck
@@ -67,4 +67,12 @@ Implement JWT (JSON Web Token) authentication
 - Setup security so that only your IP and Levvel office IPs (we can provide this list when you are ready) can access the website
 
 
-### Suggested Reading 
+## Suggested Readings
+- API Design: https://hackernoon.com/restful-api-designing-guidelines-the-best-practices-60e1d954e7c9
+#### .NET Core 
+- JWT Auth: https://jasonwatmore.com/post/2019/10/11/aspnet-core-3-jwt-authentication-tutorial-with-example-api
+- Entity Framework Core Relationships: https://www.learnentityframeworkcore.com/configuration/one-to-many-relationship-configuration
+- AutoMapper: https://code-maze.com/automapper-net-core/
+#### Java Spring
+- JWT Auth: https://medium.com/@xoor/jwt-authentication-service-44658409e12c
+- ORM Relationships: https://www.javaguides.net/2019/08/spring-boot-jpa-hibernate-one-to-many-example-tutorial.html
