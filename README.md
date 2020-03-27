@@ -83,11 +83,13 @@ Implement JWT (JSON Web Token) authentication
      - Chapter 1: Background of Spring, the *why*, and the different kinds of **magical** things that spring does for you
      - Chapter 2: Building your first spring app and understanding **DI (Dependency Injection)**
      - Chapter 3: Explains Spring Configuration - you'll want to pay close attention during the security section to understand how spring will authenticate various routes
-     - Chapter 4: Testing - yes you shoud be testing  :eyes:
+     - Chapter 4: Testing - yes you shoud be testing  :eyes: It is worth noting that this discusses integration testing *not* unit testing - The unit testing piece is slightly out of date so use the resource below to learn about JUnit in spring-boot.
      
      The rest of the book isn't exceptionally helpful for the completion for this project, but still highly recommended
 
-- If you supplement the book with an understanding of JWTs/Authentication and Spring data-jpa you will have a solid foundation for completing the project. Here are some helpful links for both of those:
+- If you supplement the book with an understanding of unit testing, JWTs/authentication, and spring data-jpa you will have a solid foundation for completing the project. Here are some helpful links for both of those:
+     - Unit Testing: https://reflectoring.io/unit-testing-spring-boot/
+          - This covers both unit testing and mocking with Mockito
      - JWT Auth: https://medium.com/@xoor/jwt-authentication-service-44658409e12c
      - Data-JPA: https://spring.io/guides/gs/accessing-data-jpa/
 - Useful concepts to google when you are stuck
