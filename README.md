@@ -60,6 +60,10 @@ Implement JWT (JSON Web Token) authentication
 ### Database
 - Feel free to use any Relational Database, we suggest using Postgres, or MySQL. 
 
+### Unit Testing
+- There should be an appropriate amount of testing.
+- Tests should test core business logic - no need to test methods that are just making a function call or returning a constant. 
+
 
 
 ### Deployment
@@ -73,6 +77,7 @@ Implement JWT (JSON Web Token) authentication
 - JWT Auth: https://jasonwatmore.com/post/2019/10/11/aspnet-core-3-jwt-authentication-tutorial-with-example-api
 - Entity Framework Core Relationships: https://www.learnentityframeworkcore.com/configuration/one-to-many-relationship-configuration
 - AutoMapper: https://code-maze.com/automapper-net-core/
+- Unit Testing: https://docs.microsoft.com/en-us/dotnet/core/testing/
 #### Java Spring
 - Spring Boot in Action (**highly** recommend the following selections)
      - Chapter 1: Background of Spring, the *why*, and the different kinds of **magical** things that spring does for you
