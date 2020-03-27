@@ -1,57 +1,70 @@
 # Back End Project
 
 ## Overview
-Create an application to provide food truck information for the Charlotte area. Please find the requirements outlined below. These are just basic guidelines and extra features are always encouraged. Please use your best judgement for how to design and implement it.
+Create an application (RESTful Web API) to provide food truck information for the Charlotte area. Please find the requirements outlined below. These are just basic guidelines and extra features are always encouraged. Please use your best judgement for how to design and implement it.
 
 ## Requirements
 ### Language
-Choose either Java Spring or .NET to build this project. Finish one of the below courses or any other courses you find relevant before attempting the project.
+Choose either Java Spring or .NET Core to build this project. Finish one of the below courses or any other courses you find relevant before attempting the project.
 - [Java Spring Course](https://www.udemy.com/spring-hibernate-tutorial/) 
 - [.NET Course](https://www.udemy.com/aspnet-core-20-e-commerce-web-site-based-on-microservices-and-docker/) 
 
 ### Basics 
-Create a RESTful API to retrieve food truck information from a DB in JSON and XML formats instead of using the API.
+Create an RESTful API for Creating/Reading/Updating and Deleting Food Trucks in a persistent data store.
 
-<i>Framework</i>
+### Code-First Approach
 - Use Hibernate as an ORM in conjunction with JPA for Java Spring
-- Use Entity Framework ORM for .NET
+- Use Entity Framework Core ORM for .NET Core
 
-<i>Create</i> 
-- Add a food truck with the following specifications:
-  - ID: non-empty unique alpha-numeric characters
-  - Name: 1-50 characters
-  - Price: a choice between `$`, `$$`, `$$$`, `$$$$`
-  - Rating: from `1.0` to `5.0`
-  - Open hours: an array of daily hours
-  - Phone number: a string of digits
-  - Categories: one or more cuisine types
-  - Coordinates: latitude and longitude
-  - Location: an object with street address, city, state, country and zipcode properties
-  
-<i>Read</i>
-- Get all 50 food trucks 
-- Get specific food truck 
-- Get all food truck based on price, rating and category parameters
+### Authentication
+Implement JWT (JSON Web Token) authentication
+- The user should be able to register as a user on the application
+- The user should be able to login into the application
+- All the endpoints should be secure, meaning only users with an auth token should be granted access, otherwise a ```401 Unauthorized``` code should be returned. 
 
-<i>Update</i> 
-- Update the hours of a food truck 
-- Update the address details of a food truck
+### Users
+- The user should have the ability to list all of the users on the platform (Note: This should not display sensitive data like Password)
+- The user should have the ability to search a user by ID, and all see the trucks marked as favorite by this user
 
-<i>Delete</i>
-- Delete a food truck from the database
+### Categories
+- The user should have the ability to create a new category
+- The user should have the ability to list all the categories
 
-<i>Database</i>
-- Must use postgres as the data store
+### Trucks
+- The user should have the ability to create a new food truck with following properties
+     ```
+          ID: non-empty unique alpha-numeric characters
+          Name: 1-50 characters
+          Price: a choice between `$`, `$$`, `$$$`, `$$$$`
+          Rating: from `1.0` to `5.0`
+          Total Number of Ratings: integer
+          Open hours: an array of daily hours
+          Phone number: a string of digits
+          Categories: A list of categories
+          Coordinates: latitude and longitude
+          Location: an object with street address, city, state, country and zipcode properties
+          Created by: The user who created the truck
+    ```
+- The user should have the ability to List all the trucks 
+- The user should have the ability to get a specific food truck by ID
+- The user should have the ability to query all the trucks based on price, rating, and category
+- The user should have the ability to rate a truck (this should change the rating of the truck)
+- The user should have the ability to update a truck (and all its properties) by ID if the truck was created by him
+- The user should have the ability to delete a food truck from the database if the truck was created by him
 
-<i>Auditing</i>
-- Create an audit/change log to store all the updates that have been made to the food trucks (updates, adds, deletes) 
+### Favorites
+- The user should have the ability to add a truck as a favorite
+- The user should have the ability to delete a truck from his favorites
+- The user should have the ability to view his favorite trucks
 
-<i>Favorites</i>
-- Allow a user to add favorites and then retrieve those favorites 
+### Database
+- Feel free to use any Relational Database, we suggest using Postgres, or MySQL. 
 
-<i>Deployment</i>
+
+
+### Deployment
 - Deploy it to one of the following platforms - AWS, Azure or GCP
 - Setup security so that only your IP and Levvel office IPs (we can provide this list when you are ready) can access the website
 
-## Things We Do Not Expect
-- We do not expect to have multiple environments working, and pushing code through
+
+### Suggested Reading 
