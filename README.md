@@ -86,9 +86,9 @@ Implement JWT (JSON Web Token) authentication
      - JWT Auth: https://medium.com/@xoor/jwt-authentication-service-44658409e12c
      - Data-JPA: https://spring.io/guides/gs/accessing-data-jpa/
 - Useful concepts to google when you are stuck
-     - @Component - basic building block in spring-boot - makes the annotated class discoverable by the spring context and available for dependency injection
-     - Dependency Injection
-     - @RestController - (You may see @Controller, but that annotation is for views not APIs)
-     - spring data-jpa - This will make your life a *lot* easier when setting up your database models
-          - @Entity
-          - @Repository
+     - **@Component** - basic building block in spring-boot - makes the annotated class discoverable by the spring context and available for dependency injection
+     - **Dependency Injection**
+     - **@RestController** - (You may see @Controller, but that annotation is for view controllers not REST APIs)
+     - **spring data-jpa** - This will make your life a *lot* easier when setting up your database models
+          - **@Entity**
+          - **@Repository**
