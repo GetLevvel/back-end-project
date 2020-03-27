@@ -75,5 +75,6 @@ Implement JWT (JSON Web Token) authentication
 - AutoMapper: https://code-maze.com/automapper-net-core/
 #### Java Spring
 - Spring Boot in Action 2nd Edition
+- Test edit by rob
 - JWT Auth: https://medium.com/@xoor/jwt-authentication-service-44658409e12c
 - ORM Relationships: https://www.javaguides.net/2019/08/spring-boot-jpa-hibernate-one-to-many-example-tutorial.html
