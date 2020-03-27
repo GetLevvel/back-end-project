@@ -74,7 +74,7 @@ Implement JWT (JSON Web Token) authentication
 - Entity Framework Core Relationships: https://www.learnentityframeworkcore.com/configuration/one-to-many-relationship-configuration
 - AutoMapper: https://code-maze.com/automapper-net-core/
 #### Java Spring
-- Spring Boot in Action 2nd Edition (**highly** recommend the following selections)
+- Spring Boot in Action (**highly** recommend the following selections)
      - Chapter 1: Background of Spring, the *why*, and the different kinds of **magical** things that spring does for you
      - Chapter 2: Building your first spring app and understanding **DI (Dependency Injection)**
      - Chapter 3: Explains Spring Configuration - you'll want to pay close attention during the security section to understand how spring will authenticate various routes
