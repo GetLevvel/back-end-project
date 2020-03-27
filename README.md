@@ -74,7 +74,18 @@ Implement JWT (JSON Web Token) authentication
 - Entity Framework Core Relationships: https://www.learnentityframeworkcore.com/configuration/one-to-many-relationship-configuration
 - AutoMapper: https://code-maze.com/automapper-net-core/
 #### Java Spring
-- Spring Boot in Action 2nd Edition
-- Test edit by rob
+- Spring Boot in Action 2nd Edition (**highly** recommend the following selections)
+     - Chapter 1: Background of Spring, the *why*, and the different kinds of **magical** things that spring does for you
+     - Chapter 2: Building your first spring app and understanding **DI (Dependency Injection)**
+     - Chapter 3: Explains Spring Configuration - you'll want to pay close attention during the security section to understand how spring will authenticate various routes
+     - Chapter 4: Testing - yes you shoud be testing  :eyes:
+     The rest of the book isn't exceptionally helpful for the completion for this project, but still highly recommended
 - JWT Auth: https://medium.com/@xoor/jwt-authentication-service-44658409e12c
-- ORM Relationships: https://www.javaguides.net/2019/08/spring-boot-jpa-hibernate-one-to-many-example-tutorial.html
+- Data-JPA: https://spring.io/guides/gs/accessing-data-jpa/
+- Useful concepts to google when you are stuck
+     - @Component - basic building block in spring-boot - makes the annotated class discoverable by the spring context and available for dependency injection
+     - Dependency Injection
+     - @RestController - (You may see @Controller, but that annotation is for views not APIs)
+     - spring data-jpa - This will make your life a *lot* easier when setting up your database models
+          - @Entity
+          - @Repository
