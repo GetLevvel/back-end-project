@@ -8,10 +8,11 @@ Create an application (RESTful Web API) to provide/manipulate food truck informa
 
 ### Language
 
-Choose either Java Spring or .NET Core to build this project. Finish one of the below courses or any other courses you find relevant before attempting the project.
+Choose either Java Spring, .NET Core, or Node.js to build this project. Finish one of the below courses or any other courses you find relevant before attempting the project.
 
 - [Java Spring Course](https://www.udemy.com/spring-hibernate-tutorial/)
 - [.NET Course](https://www.udemy.com/aspnet-core-20-e-commerce-web-site-based-on-microservices-and-docker/)
+- [Node.js](https://www.udemy.com/course/the-complete-nodejs-developer-course-2/)
 
 ### Basics
 
@@ -19,8 +20,9 @@ Create an RESTful API for creating, reading, updating, and deleting food truck i
 
 ### Code-First Approach
 
-- Use Hibernate as an ORM in conjunction with JPA for Java Spring.
+- Use Hibernate as an ORM in conjunction with JPA for if you are building your application in Java Spring.
 - Use Entity Framework Core ORM if you are building your application in .NET Core.
+- Use Sequelize or Bookshelf ORM if you are building your application in Node.js.
 
 ### Authentication
 
@@ -76,7 +78,7 @@ Implement JWT (JSON Web Token) authentication
 ### Unit Testing
 
 - There should be an appropriate amount of unit testing using any testing framework that you desire.
-  - We suggest NUnit for .Net Core applications and JUnit for Java applications. More links and suggests are found below.
+  - We suggest NUnit for .Net Core applications; JUnit for Java applications; and Jest for Node.js applications. More links and suggests are found below.
 - Tests should test core business logic - no need to test methods that are just making a function call or returning a constant or testing database calls/connections.
 
 ### Deployment
@@ -118,3 +120,17 @@ Implement JWT (JSON Web Token) authentication
   - **spring data-jpa** - This will make your life a _lot_ easier when setting up your database models
     - **@Entity**
     - **@Repository**
+
+#### Node.js
+
+- In addition to the course listed at the top of this README, here are some suggested readings and resources that could help you develop your Node.js application.
+- Using Express.js with Node.js to host web applications:
+  - https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction
+  - https://www.tutorialspoint.com/nodejs/nodejs_express_framework.htm
+- Unit Testing with Jest:
+  - https://medium.com/@bcostabatista/testing-nodejs-applications-with-jest-7ae334daaf55 (Just the section on unit testing, do not need to worry about Integration or End-2-End testing)
+  - https://medium.com/@ddevinda/unit-test-for-nodejs-using-jest-e7f52cbb131c
+- Node.js ORMs:
+  - Sequelize: https://dev.to/nedsoft/getting-started-with-sequelize-and-postgres-emp
+  - Bookshelf: https://stackabuse.com/bookshelf-js-a-node-js-orm/
+- Feel free to do your own independent research on these topics and more as well!
