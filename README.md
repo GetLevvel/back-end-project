@@ -12,7 +12,7 @@ Choose either Java Spring, .NET Core, or Node.js to build this project. Finish o
 
 - [Java Spring Course](https://www.udemy.com/spring-hibernate-tutorial/)
 - [.NET Course](https://www.udemy.com/aspnet-core-20-e-commerce-web-site-based-on-microservices-and-docker/)
-- [Node.js](https://www.udemy.com/course/the-complete-nodejs-developer-course-2/)
+- [Node.js Course](https://www.udemy.com/course/the-complete-nodejs-developer-course-2/)
 
 ### Basics
 
