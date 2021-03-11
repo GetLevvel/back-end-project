@@ -10,9 +10,9 @@ Create an application (RESTful Web API) to provide/manipulate food truck informa
 
 Choose either Java Spring, .NET Core, or Node.js to build this project. Finish one of the below courses or any other courses you find relevant before attempting the project.
 
-- [Java Spring Course](https://www.udemy.com/spring-hibernate-tutorial/)
-- [.NET Course](https://www.udemy.com/aspnet-core-20-e-commerce-web-site-based-on-microservices-and-docker/)
-- [Node.js Course](https://www.udemy.com/course/the-complete-nodejs-developer-course-2/)
+- [Java Spring Course](https://www.udemy.com/spring-hibernate-tutorial/) Updated: 3/2021
+- [.NET Course](https://www.udemy.com/aspnet-core-20-e-commerce-web-site-based-on-microservices-and-docker/) Updated: 1/2021
+- [Node.js Course](https://www.udemy.com/course/the-complete-nodejs-developer-course-2/) Updated: 10/2020
 
 ### Basics
 
@@ -112,7 +112,7 @@ Implement JWT (JSON Web Token) authentication
   - Unit Testing: https://reflectoring.io/unit-testing-spring-boot/
     - This covers both unit testing and mocking with Mockito
   - JWT Auth: https://medium.com/@xoor/jwt-authentication-service-44658409e12c
-  - Data-JPA: https://spring.io/guides/gs/accessing-data-jpa/
+  - Data-JPA: https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#reference
 - Useful concepts to google when you are stuck
   - **@Component** - basic building block in spring-boot - makes the annotated class discoverable by the spring context and available for dependency injection
   - **Dependency Injection**
